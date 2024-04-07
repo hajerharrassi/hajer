@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:violet;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  form#student-form {
+    max-width: 300px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: darkblue;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="number"],
+  .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid ;color: blueviolet;
+    border-radius: 4px;
+    box-sizing: border-box; 
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #4cae4c;
+  }
+  #student-image {
+    display: block;
+    max-width: 100%; /* Assurez-vous que l'image ne dépasse pas la largeur de son conteneur */
+    height: auto; /* Garde le ratio de l'image intact */
+    margin: 0 auto 20px; /* Centre l'image horizontalement et ajoute un espace en dessous */
+  }
+  
+  
